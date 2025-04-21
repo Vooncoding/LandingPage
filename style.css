@@ -105,7 +105,7 @@ a{
 .main-content{
     display: flex;
     flex-direction: column;
-    
+    flex: 1;
     align-items: center;
 
 }
@@ -123,6 +123,80 @@ a{
     width: 150px;
     text-align: center;
 }
+
+.quotesection{
+    border: 1px solid #e5e7eb;
+    background-color: #e5e7eb;
+    height: 200px;
+    flex-shrink: 0;
+   
+
+}
+
+.quotesection, .quote-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: italic;
+    font-variation-settings:
+      "wdth" 100;
+      
+}
+
+.name{
+    position: absolute;
+    right: 10px;
+    
+}
+
+.SignUp{
+    border: 1px solid #3882f6;
+    color: #f9faf8;
+    background-color: #3882f6;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+}
+
+.signup-text{
+
+}
+
+.signup, button{
+    background-color: #3882f6;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.footer{
+    
+    border: 1px solid #1F2937;
+    background-color: #1F2937;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+
 
 
 
