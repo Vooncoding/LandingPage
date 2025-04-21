@@ -47,6 +47,7 @@ a{
     justify-content: space-between;
     padding: 40px 10% 10%  ;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 .placeholder{
@@ -93,6 +94,7 @@ a{
     gap: 40px;
     justify-content: center;
     margin-top: 40px;
+    flex-wrap: wrap;
 
 }
 
@@ -127,7 +129,7 @@ a{
 .quotesection{
     border: 1px solid #e5e7eb;
     background-color: #e5e7eb;
-    height: 200px;
+    height: auto;
     flex-shrink: 0;
    
 
@@ -164,9 +166,7 @@ a{
     width: 60%;
 }
 
-.signup-text{
 
-}
 
 .signup, button{
     background-color: #3882f6;
@@ -193,6 +193,11 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media (max-width: 768px) {
+    .quote-text {
+        font-size: 18px;
+    }
 }
 
     
